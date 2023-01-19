@@ -11,6 +11,7 @@
   flex: 1 1 0;
   justify-content: flex-start;
   padding-top: 140px;
+  position: relative;
 }
 
 #logo-box {
@@ -42,8 +43,11 @@
 #photo-attribution {
   color: rgba(255,255,255,1);
   text-align: center;
-  position: relative;
-  top: 300px;
+  flex: 1;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 body {
