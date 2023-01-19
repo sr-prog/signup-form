@@ -63,6 +63,15 @@ label {
   display: block;
 }
 
+.error:focus {
+  border-color: green;
+}
+
+.error:invalid {
+  border-color: red;
+}
+
+
 #inner-form-box {
   display: grid;
   grid-template-columns: repeat(2, 250px);
