@@ -1,0 +1,141 @@
+* {
+  font-family: "Arial", "Trebuchet MS", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+#left-panel {
+  background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  justify-content: flex-start;
+  padding-top: 140px;
+}
+
+#logo-box {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: norse;
+  src: url(./Norse-Bold.otf);
+}
+
+#logo-text {
+  color: white;
+  font-size: 6rem;
+  font-family: "norse";
+}
+
+#logo-image {
+  height: 100px;
+  padding-right: 20px;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+input,
+label {
+  display: block;
+}
+
+#inner-form-box {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  row-gap: 20px;
+}
+
+#right-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 2 2 0;
+}
+
+#text-box {
+  font-family: "Arial", "Trebuchet MS", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: -100px;
+  margin-bottom: 60px;
+}
+
+#form-box {
+  padding: 10px 0px;
+  box-shadow: 0px 3px 5px grey;
+  position: relative;
+}
+
+#signup-box {
+  padding-top: 40px;
+  background-color: #f9fafb;
+}
+
+#text-box,
+#form-box,
+#signup-box {
+  padding-left: 40px;
+  flex: 1 1 300px;
+}
+
+button {
+  background-color: #596d48;
+  color: #ffffff;
+  border-style: none;
+  padding: 10px 30px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
+}
+
+#form-top-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 0.7rem;
+  color: #3b4450;
+  font-weight: bold;
+}
+
+input {
+  font-size: 1rem;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ebedf0;
+  padding: 4px 6px;
+}
+
+input:focus {
+  border-color: #5378df;
+  border-style: solid;
+  border-width: 2px;
+  outline: none;
+  box-shadow: 0px 1px 3px grey;
+}
