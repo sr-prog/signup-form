@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 90px;
 }
 
 @font-face {
@@ -36,6 +37,13 @@
 #logo-image {
   height: 100px;
   padding-right: 20px;
+}
+
+#photo-attribution {
+  color: rgba(255,255,255,1);
+  text-align: center;
+  position: relative;
+  top: 300px;
 }
 
 body {
@@ -104,12 +112,18 @@ button {
   font-weight: bold;
 }
 
-a,
-a:visited,
-a:link {
+#log-in-link,
+#log-in-link:visited,
+#log-in-link:link {
   text-decoration: none;
   color: #596d48;
   font-weight: bold;
+}
+
+a,
+a:visited,
+a:link {
+  color: white;
 }
 
 #form-top-text {
